@@ -6,3 +6,5 @@ You can refer to the [official nginx image documentation](https://hub.docker.com
 When you provide your configuration you can enable modsecurity. Please refer to [their wiki](https://github.com/SpiderLabs/ModSecurity/wiki) for documentation.
 
 NOTE: no rules are shipped with this container, if you enable modsecurity you need to provide your own
+
+Forked from: https://github.com/elisiano/docker-nginx-modsecurity
