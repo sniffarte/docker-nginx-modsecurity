@@ -1,8 +1,8 @@
-FROM alpine:3.4
+FROM alpine:3.7
 
-MAINTAINER Elisiano Petrini "elisiano@gmail.com"
+MAINTAINER Ariel De Santo "sniffarte@gmail.com"
 
-ENV NGINX_VERSION 1.11.8
+ENV NGINX_VERSION 1.14.0
 
 RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 	&& CONFIG="\
